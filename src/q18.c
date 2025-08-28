@@ -1,4 +1,3 @@
-// Write a C expression that calculates the sum of the squares of three different numbers.
 #include<stdio.h>
 int main(){
     int num1,num2,num3;
