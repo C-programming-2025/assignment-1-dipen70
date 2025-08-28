@@ -1,11 +1,11 @@
-#include<stdio.h>
-int main(){
-    int x,y;
-    printf("enter value of x and y:");
-    scanf("%d %d",&x,&y);
-    printf("before swap value: x=%d y=%d",x,y);
-    x=x+y;
-    y=x-y;
-    x=x-y;
-    printf("\nafter swap value: x=%d y=%d",x,y);
+#include <stdio.h>
+int main() {
+    int a, b;
+    printf("Enter two integers (a and b): ");
+    scanf("%d %d", &a, &b);
+    a = a + b; 
+    b = a - b;
+    a = a - b;
+    printf("After swapping: a = %d, b = %d\n", a, b);
+    return 0;
 }
