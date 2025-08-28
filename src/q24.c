@@ -6,6 +6,6 @@ int main(){
     scanf("%d", &n);
     int sqrt_n = (int)sqrt(n);
     int result = (sqrt_n * sqrt_n == n);
-    printf("%d", result); // prints 1 if num is a perfect square, otherwise prints 0
+    printf("%d", result);
     return 0;
 }
